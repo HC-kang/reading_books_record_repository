@@ -1,5 +1,5 @@
-const PREFIX_DOCS_URL = 'https://saseungmin.github.io/reading_books_record_repository/docs';
-const PREFIX_SUMMARIZE_URL = 'https://github.com/saseungmin/reading_books_record_repository/tree/master/summarize_books_in_markdown';
+const PREFIX_DOCS_URL = 'https://saseungmin.github.io/summary_of_technical_books/docs';
+const PREFIX_SUMMARIZE_URL = 'https://github.com/saseungmin/summary_of_technical_books/tree/main/summarize_books_in_markdown';
 
 export type Book = {
   link: string;
@@ -117,22 +117,17 @@ const books: Book[][] = [
       imgName: 'thinking-together.jpeg',
     },
     {
-      link: `${PREFIX_SUMMARIZE_URL}/%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81%202%ED%8C%90`,
-      bookName: '리팩터링 2판',
-      imgName: 'refactoring.jpeg',
-    },
-    {
       link: `${PREFIX_DOCS_URL}/functional/in-scala/table-of-contents`,
       bookName: '스칼라로 배우는 함수형 프로그래밍',
       imgName: 'functional-programming-in-scala.jpeg',
     },
-  ],
-  [
     {
-      link: `${PREFIX_DOCS_URL}/clean/clean-code/table-of-contents`,
+      link: `${PREFIX_DOCS_URL}/etc/clean-code/table-of-contents`,
       bookName: '클린 코드',
       imgName: 'clean-code.jpeg',
     },
+  ],
+  [
     {
       link: `${PREFIX_DOCS_URL}/etc/pragmatic-programmer/table-of-contents`,
       bookName: '실용주의 프로그래머 20주년 기념판',
@@ -143,13 +138,13 @@ const books: Book[][] = [
       bookName: '인스파이어드',
       imgName: 'inspired.jpeg',
     },
-  ],
-  [
     {
       link: `${PREFIX_DOCS_URL}/test/test-driven-development/table-of-contents`,
       bookName: '테스트 주도 개발',
       imgName: 'tdd.jpeg',
     },
+  ],
+  [
     {
       link: `${PREFIX_DOCS_URL}/test/unit-test/table-of-contents`,
       bookName: '단위 테스트',
@@ -159,6 +154,18 @@ const books: Book[][] = [
       link: `${PREFIX_DOCS_URL}/typescript/effective-typescript/table-of-contents`,
       bookName: '이펙티브 타입스크립트',
       imgName: 'effective-typescript.jpeg',
+    },
+    {
+      link: 'https://github.com/saseungmin/learning_rust',
+      bookName: '러스트 프로그래밍',
+      imgName: 'rust-programming.jpeg',
+    },
+  ],
+  [
+    {
+      link: `${PREFIX_DOCS_URL}/etc/fluent-react/table-of-contents`,
+      bookName: '전문가를 위한 리액트',
+      imgName: 'fluent-react.jpeg',
     },
   ],
 ];
